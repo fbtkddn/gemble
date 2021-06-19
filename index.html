@@ -78,14 +78,16 @@ font size: 20px;
 
 </head>
 <body>
-
-<h2>현재 시각</h2>
-
-<p id="demo1"></p>
+<h1>오늘의 날짜</h1>
+<p id="demo3"></p>
 
 <script>
-var d = new Date();
-document.getElementById("demo1").innerHTML = d;
+const d=new Date()
+let yoil = ["일","월","화","수","목","금","토"];
+let today="";
+let month = d.getMonth()+1;
+today = d.getFullYear()+"년 " + month +"월 " +d.getDate() + "일 (" + yoil[d.getDay()]+")";
+document.getElementById("demo3").innerHTML = today;
 </script>
 
 </body>
@@ -180,7 +182,140 @@ function myFunction() {
 </script>
 
 </body>
+<head>
+  <title>도박의 종류</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+<div class="container">
+  <h1><pre>
+    
+    
+    도박의 종류
+    </pre></h1>
+  <p><p>한국과 외국에서의 도박에는 무엇들이 있을까요?</p></p> 
+  <p><p>도박의 종류와 그중 게임의 룰을 알아봅시다.</p></p>           
+</div>
 
+</body>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1><pre>
+    
+    한국에서의 도박</pre></h1>    
+  <p>아마 한국에서 도박이라고 하면 영화나 부모님 등을 통하여 봐왔던<mark>화투</mark> 가 있을겁니다. 한국의 도박은 사실 외국에 비하면 매우 한정적입니다.
+  아래에 있는 목록이 바로 게임의 종류입니다.
+  </p>
+</div>
+
+</body>
+<body>
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2><p>대표적인 도박들</p></h2>
+  
+<ul>
+  <li>바둑이</li>
+  <li>블랙잭</li>
+  <li>텍사스홀덤</li>
+  <li>포커</li>
+  <li>훌라</li>
+  <li>슬롯머신</li>
+  <li>크랩스</li>
+  <li>…</li>
+
+</ul>  
+
+</div>
+
+</body>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+<div class="container">
+  <h1>게임 규칙 알아보기</h1>
+  <p>위의 목록처럼 정말 많은 종류의 게임이 있지만 오늘은 그중</p> 
+  <p>카지노에서 인기가 제일 많은 블랙잭과 포커를 알아보도록 하겠습니다.</p>           
+</div>
+
+</body>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>블랙잭</h1>      
+    <p>숫자의 합이 21에 가까우면 이기는 간단한 방식의 게임으로 21을 넘기면 버스트로 게임에서 패배하게된다. A는 1과 11중에 고를 수 있으며 J Q K는 모두 10으로 친다.
+      만약 카드 수가 다르고  </p>
+  </div>
+  <p>This is some text.</p>      
+  <p>This is another text.</p>      
+</div>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+</body>
+<body>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>Bootstrap Tutorial</h1>      
+    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+  </div>
+  <p>This is some text.</p>      
+  <p>This is another text.</p>      
+</div>
+
+</body>
 
 
 </html>
