@@ -130,11 +130,56 @@ box-shadow: 5px 5px grey;
 }
 
 </style>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+</style>
+</head>
 <body>
-<a href="https://namu.wiki/w/%ED%83%80%EC%A7%9C:%20%EC%9B%90%20%EC%95%84%EC%9D%B4%EB%93%9C%20%EC%9E%AD"><img src="http://t1.daumcdn.net/movie/c718986ee7284fe6899244115cdbd0211566460622237" alt="관련 영화" width="300">
-<button type="button" onclick="document.getElementById('demo').style.display='none'">Close</button>
-<button type="button" onclick="document.getElementById('demo').style.display='block'">Open</button>
-</p></a></body>
+
+<p>버튼을 클릭하면 사진이 나와요!</p>
+
+<button onclick="myFunction()">열고닫기</button>
+
+<div id="myDIV">
+<style>
+img {
+border-radius:10%;
+}
+img:hover{
+box-shadow: 5px 5px grey;
+}
+
+</style>
+<body>
+<h1> 타짜 시리즈 <h1/>
+<a href="https://namu.wiki/w/%ED%83%80%EC%A7%9C(%EC%98%81%ED%99%94)"><img src="http://t1.daumcdn.net/movie/c718986ee7284fe6899244115cdbd0211566460622237" alt="관련영화" width="300"></a>
+
+</body>
+
+</div>
+
+<p><b>타짜 시리즈:</b>인물들이 인생을 건 도박판에서의 싸움.</p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+</body>
 
 
 
